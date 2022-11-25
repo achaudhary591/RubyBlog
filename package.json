@@ -1,17 +1,29 @@
 {
-  "name": "FirstRubyProjectBlog",
+  "name": "alpha_blog",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "^5.4.3",
+    "@rails/webpacker": "4.2.2",
+    "bootstrap": "4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0",
-    "webpack-dev-server": "^4.11.1"
-  }
+    "webpack-dev-server": "^3.10.3"
+  },
+  "description": "Resource - Users - create users table and model         - add validations         * username must be present and unique, min 3 max 25         * email address must be present and unique, max 105         * email must be valid email format, check with email regex",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

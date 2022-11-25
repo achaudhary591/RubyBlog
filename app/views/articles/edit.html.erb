@@ -3,8 +3,8 @@
 <%= render 'form', article: @article %>
 
 <div style="display:flex">
-    <%= button_to 'Show', @article %> &nbsp;
-    <%= button_to 'Back', articles_path %>
+    <%= button_to 'Show', @article, method: :get %> &nbsp;
+    <%= button_to 'Back', articles_path, method: :get %>
 </div>
 
 
