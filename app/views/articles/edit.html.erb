@@ -1,10 +1,4 @@
-<h1>Editing Article</h1>
-
-<%= render 'form', article: @article %>
-
-<div style="display:flex">
-    <%= button_to 'Show', @article, method: :get %> &nbsp;
-    <%= button_to 'Back', articles_path, method: :get %>
+<div id="page-content">
+  <h1 class="text-center mt-4">Edit article</h1>
+  <%= render 'form' %>
 </div>
-
-
