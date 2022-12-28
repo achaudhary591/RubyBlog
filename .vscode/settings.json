@@ -1,4 +1,5 @@
 {
     "editor.tabCompletion": "on",
-    "diffEditor.codeLens": true
+    "diffEditor.codeLens": true,
+    "github-enterprise.uri": "https://git.heroku.com"
 }
